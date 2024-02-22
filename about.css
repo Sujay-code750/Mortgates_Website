@@ -1,0 +1,409 @@
+/* menuBottom section */
+
+.menuBottomSection{
+    background: url(https://ld-wp73.template-help.com/wordpress/prod_13745/v2/wp-content/uploads/2019/09/breadcrumbs_bg.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.menuBottomSec li{
+    color: var(--color-01-ffffff) !important;
+    text-decoration: underline;
+}
+.menuBottomSec li a{
+    color: var(--color-01-ffffff);
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: var(--color-01-ffffff) !important;
+}
+.menuBottomSec span i {
+    font-size: 11px;
+    margin: 0 10px;
+    transform: translateY(-1px);
+}
+
+
+/* message section */
+
+.messageSection{
+    padding: var(--sec-padding);
+    background-color: var(--color-01-ffffff);
+}
+.messageSec .icons ul{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+.messageSec .row{
+    align-items: start !important;
+}
+.fixedText span{
+    height: 1px;
+    width: 70px;
+    background-color: #d6d6d6;
+    margin-top: 10px;
+}
+.messageSec .messageText p{
+    font-weight: 300;
+    color: var(--color-06-42474c);
+}
+.messageSec .headerTopRight .icon{
+    color: var(--color-04-919191);
+}
+.messageSec .headerTopRight .icon:hover{
+    color: var(--color-05-4fd2ab);
+    background-color: white;
+}
+
+
+/* studies Section */
+.studiesSection{
+    background-color: var(--color-06-42474c);
+    color: var(--color-01-ffffff);
+    padding: var(--sec-padding);
+}
+.studiesSec .fixedText {
+    margin-bottom: 20px;
+}
+.studiesLeft p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: .1px;
+    margin-bottom: 30px;
+}
+.studiesLeft .defult-btn{
+    background-color: var(--color-05-4fd2ab);
+    color: var(--color-01-ffffff);
+    border: none;
+    padding: 14px 30px;
+}
+.studiesLeft .defult-btn:hover{
+    background-color: #36b992;
+}
+
+/* fqa Section */
+
+.fqaSection{
+    padding: var(--sec-padding);
+    background-color: var(--color-01-ffffff);
+}
+.fqaSec .row{
+    align-items: start !important;
+}
+.fqaSec .fixedText p{
+    font-size: 22px;
+    font-weight: 400;
+}
+.jetTabMain .contentBox .content p {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20px 0;
+    line-height: 24px;
+}
+.jetTabMain .contentBox .content ul{
+    margin-left: 30px !important;
+    list-style: disc;
+}
+@keyframes moving{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}    
+
+.accordionItem{
+    background-color: #fff;
+    color: #111;
+}
+.accordionItemHeader{
+    padding: 8px 48px 8px 26px;
+    min-height: 56px;
+    line-height: 26px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    background-color: #f7f7f7;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: all .2s;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #d6d6d6;
+}
+.accordionItemHeader:hover{
+    color: var(--color-05-4fd2ab);
+}
+.accordionItemHeader.active{
+    color: var(--color-05-4fd2ab);
+    background-color: var(--color-01-ffffff);
+}
+.accordionItemHeader::after{
+    content: '\002B';
+    font-size: 18px;
+    position: absolute;
+    right: 38px;
+    color: var(--color-02-000000);
+}
+.accordionItemHeader.active::after{
+    content: '\2212';
+    color: var(--color-05-4fd2ab);
+}
+.accordionItemBody{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.accordionItemBody.active{
+    max-height: 152px;
+}
+.accordionItemBodyContent {
+	padding: 16px 28px;
+	line-height: 24px;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+
+/* fqaBottom Section */
+
+.fqaBottomSection{
+    background-image:  linear-gradient( rgba(50,58,66,.8), rgba(50,58,66,0.8)), url(https://ld-wp73.template-help.com/wordpress/prod_13745/v2/wp-content/uploads/2017/07/post-6-1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0;
+}
+.fqaBottomSec .circle-progress{
+    height: 208px;
+    width: 208px;
+    transform: rotate(270deg);
+}
+.fqaBottomSec .innerContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.fqaBottomSec .text h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.fqaBottomSec .text h6{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2.76px;
+    line-height: 18px;
+}
+.fqaBottomSec .text{
+    color: var(--color-01-ffffff);
+    position: absolute;
+    top: 50%;
+    transform: translate(-46%, -50%);
+    left: 50%;
+}
+
+
+/* timeline section */
+
+.timelineSection{
+    background-color: var(--color-01-ffffff);
+    padding: var(--sec-padding);
+    padding-bottom: 0;
+}
+.timelineSec .fixedText .outline{
+    background-image: none;
+}
+.timelineSec .fixedText p{
+    font-weight: 300;
+    width: 67%;
+    margin: auto;
+    margin-top: 20px;
+    color: var(--color-03-3b3d42);
+}
+.timelineMain{
+    position: relative;
+    margin-top: 30px;
+}
+.timelineMain .timelineContainer{
+    width: 67%;
+    margin: auto;
+    position: relative;
+}
+.timelineContent h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--color-06-42474c);
+    margin-bottom: 15px;
+}
+.timelineContent h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-06-42474c);
+}
+.timelineContent p{
+    font-weight: 300;
+    line-height: 24px;
+    color: var(--color-06-42474c);
+}
+.timelineContent .innerIcon{
+    height: 18px;
+    width: 18px;
+    background-color: #9dddc7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+.timelineContent .innerIcon i{
+    font-size: 10px;
+    color: var(--color-05-4fd2ab);
+    z-index: 5;
+}
+.timelineContent .text{
+    width: 47%;
+    height: 190px;
+    
+}
+.timelineContent {
+    display: flex;
+    align-items: start;
+}
+.timelineContent .icon {
+    width: 8%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#justifyRight{
+    display: flex;
+    justify-content: end;
+}
+.timelineMain .innerContent::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: calc(50% - 1px);
+    right: 0;
+    width: 2px;
+    background-color: rgba(137,146,155,0.3);
+    height: calc(100% - 190px);
+}
+.timelineMobile{
+    display: none;
+}
+.processLeft ul li h4 {
+	font-size: 16px;
+}
+.timelineMobile h2 {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.processLeft ul li::before {
+	top: 0%;
+}
+.processLeft ul::before {
+	top: 0px;
+	height: calc(100% - 128px);
+}
+
+
+
+
+
+/* responsive css */
+
+@media(max-width:1024px){
+    .menuBottomSection {
+        padding: 50px 10px;
+    }
+    .fixedText {
+        margin-bottom: 20px;
+    }
+    .jetTabMain .tabBox .tabBtn span {
+        font-size: 10px !important;
+    }
+    .accordionItemHeader {
+        font-size: 16px;
+    }
+    .accordionItemBodyContent {
+        font-size: 14px;
+    }
+    .fqaBottomSec .innerContent {
+        margin: 12px 0;
+    }
+}
+@media(max-width:810px){
+    .fixedText h1 {
+        font-size: 26px;
+    }
+    iframe {
+        height: 280px;
+        border-radius: 10px;
+    }
+    .fqaBottomSec .circle-progress {
+        height: 180px;
+        width: 180px;
+    }
+    .fqaBottomSec .text h1 {
+        font-size: 30px;
+    }
+    .fqaBottomSec .text h6 {
+        font-size: 10px;
+    }
+    .accordionItemBody.active{
+        max-height: 200px;
+    }
+    .accordionItemHeader {
+        font-size: 13px;
+    }
+    .accordionItemHeader::after {
+        right: 21px;
+    }
+}
+@media(max-width:768px){
+    .timelineSec .fixedText p {
+        width: 100%;
+    }
+    .timelineMain .timelineContainer {
+        width: 100%;
+    }
+}
+@media(max-width:430px){
+    .messageSec .messageText p {
+        font-size: 14px;
+    }
+    .messageSec .icons ul {
+        justify-content: start;
+        margin-bottom: 25px !important;
+    }
+    .studiesLeft {
+        margin-bottom: 20px;
+    }
+    .fqaSec .fixedText p {
+        font-size: 19px;
+        font-weight: 400;
+    }
+    .jetTabMain .tabBox .tabBtn {
+        letter-spacing: 0.5px;
+    }
+    .fqaLeft {
+        margin-bottom: 60px;
+    }
+    .accordionItemHeader {
+        padding: 3px 31px 3px 14px;
+    }
+    .timelineMain{
+        display: none;
+    }
+    .timelineMobile{
+        display: block;
+    }
+}
